@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Al Qur\'an</string>
+    <string name="copied">Copied</string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="play"><![CDATA[>]]></string>
+    <string name="read_quran">Read Quran</string>
+    <string name="listen_quran">Listen Quran</string>
+    <string name="surah_name">Surah Name</string>
+    <string name="selected">Selected</string>
+    <string name="playing">Playing</string>
+    <string name="paused">Paused</string>
+    <string name="frwd5sec">Forwarded 5 seconds</string>
+    <string name="cant_frwd5sec">Cannot forward 5 seconds</string>
+    <string name="bkwd5sec">Backwarded 5 seconds</string>
+    <string name="cant_bkwd5sec">Cannot backward 5 seconds</string>
+    <string name="update_coming_soon">Update Coming Soon!!!</string>
+    <string name="slogan">Read or Listen Quran Offline</string>
+    <string name="coming_coon">Comming Soon!</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_center_back"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/def_btn_height"
+    android:background="@android:color/transparent"
+    android:contentInsetStart="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetEnd="0dp"
+    android:contentInsetRight="0dp"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/padding10"
+        android:paddingLeft="@dimen/padding10"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding">
+
+        <ImageView
+            android:id="@+id/img_tlbr_back"
+            android:layout_width="@dimen/width25"
+            android:layout_height="@dimen/height25"
+            android:layout_gravity="center"
+            android:src="@drawable/back_white" />
+
+        <TextView
+            android:id="@+id/txt_tlbr_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

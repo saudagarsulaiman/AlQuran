@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lnr_read_quran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/def_margin"
+            android:background="@drawable/rec_green_white_c10"
+            android:orientation="horizontal"
+            android:padding="@dimen/def_padding">
+
+            <ImageView
+                android:layout_width="@dimen/width35"
+                android:layout_height="@dimen/height35"
+                android:layout_gravity="center"
+                android:src="@drawable/read" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/read_quran"
+                android:textColor="@color/bg_grad_end_g1"
+                android:textSize="@dimen/def_ttl_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnr_listen_quran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/def_margin"
+            android:background="@drawable/rec_green_white_c10"
+            android:orientation="horizontal"
+            android:padding="@dimen/def_padding">
+
+            <ImageView
+                android:layout_width="@dimen/width35"
+                android:layout_height="@dimen/height35"
+                android:layout_gravity="center"
+                android:src="@drawable/listen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/listen_quran"
+                android:textColor="@color/bg_grad_end_g1"
+                android:textSize="@dimen/def_ttl_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/def_margin"
+        android:gravity="center"
+        android:text="@string/update_coming_soon"
+        android:textColor="@color/white"
+        android:textSize="@dimen/def_hint_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>
