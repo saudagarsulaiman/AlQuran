@@ -32,8 +32,8 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/height5"
-                android:background="@color/bg_grad_end_g1"
-                android:layout_marginBottom="@dimen/def_margin"/>
+                android:layout_marginBottom="@dimen/def_margin"
+                android:background="@color/bg_grad_end_g1" />
 
             <LinearLayout
                 android:layout_width="match_parent"

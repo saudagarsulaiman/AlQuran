@@ -30,10 +30,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
             android:gravity="center"
-            android:textStyle="bold"
             android:text="@string/app_name"
             android:textColor="@color/black"
-            android:textSize="@dimen/text18" />
+            android:textSize="@dimen/text18"
+            android:textStyle="bold" />
 
         <com.islam.alquran.Utilities.AutoScrollableTextView
             android:id="@+id/txt_arabicName"

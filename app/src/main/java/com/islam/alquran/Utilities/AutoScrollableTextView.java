@@ -34,13 +34,13 @@ public class AutoScrollableTextView extends TextView {
 
     @Override
     protected void onFocusChanged(boolean focused, int direction, Rect previouslyFocusedRect) {
-        if(focused)
+        if (focused)
             super.onFocusChanged(focused, direction, previouslyFocusedRect);
     }
 
     @Override
     public void onWindowFocusChanged(boolean focused) {
-        if(focused)
+        if (focused)
             super.onWindowFocusChanged(focused);
     }
 
