@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnr_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin10"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_grad_unselected"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/def_text_size" />
+
+            <com.islam.alquran.Utilities.AutoScrollableTextView
+                android:id="@+id/txt_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/eng_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/def_text_size" />
+
+            <com.islam.alquran.Utilities.AutoScrollableTextView
+                android:id="@+id/txt_engName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/language"
+                android:textColor="@color/black"
+                android:textSize="@dimen/def_text_size" />
+
+            <com.islam.alquran.Utilities.AutoScrollableTextView
+                android:id="@+id/txt_lang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

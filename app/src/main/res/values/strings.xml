@@ -19,4 +19,15 @@
     <string name="update_coming_soon">Update Coming Soon!!!</string>
     <string name="slogan">Read or Listen Quran Offline</string>
     <string name="coming_coon">Comming Soon!</string>
+    <string name="ayah_reciters">Ayah Reciters</string>
+    <string name="reciters">Reciters</string>
+    <string name="name">Name</string>
+    <string name="eng_name">English Name</string>
+    <string name="language">Language</string>
+    <string name="internetconnection">This App needs Internet Connection, You are currently not connected to internet</string>
+    <string name="errortxt">Something went wrong we are working over it.Please try after some time</string>
+    <string name="Timeout">Request Time out. Please try again.</string>
+    <string name="networkerror">Network error,Please try after some time</string>
+    <string name="please_wait">Please Wait...</string>
+
 </resources>

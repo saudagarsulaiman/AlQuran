@@ -13,30 +13,37 @@ import butterknife.ButterKnife;
 
 public class DashboardActivity extends AppCompatActivity {
     @BindView(R.id.lnr_listen_quran)
-    LinearLayout btn_listen;
+    LinearLayout lnr_listen_quran;
     @BindView(R.id.lnr_read_quran)
-    LinearLayout btn_read;
+    LinearLayout lnr_read_quran;
+    @BindView(R.id.lnr_listen_ayah)
+    LinearLayout lnr_listen_ayah;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         ButterKnife.bind(this);
-        btn_listen.setOnClickListener(new View.OnClickListener() {
+        lnr_listen_quran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DashboardActivity.this, SurahActivity.class);
                 startActivity(intent);
             }
         });
-        btn_read.setOnClickListener(new View.OnClickListener() {
+
+        lnr_read_quran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DashboardActivity.this, ParaActivity.class);
                 startActivity(intent);
-/*
-                Toast.makeText(DashboardActivity.this, getResources().getText(R.string.coming_coon), Toast.LENGTH_SHORT).show();
-*/
+            }
+        });
+        lnr_listen_ayah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DashboardActivity.this, RecitersActivity.class);
+                startActivity(intent);
             }
         });
     }

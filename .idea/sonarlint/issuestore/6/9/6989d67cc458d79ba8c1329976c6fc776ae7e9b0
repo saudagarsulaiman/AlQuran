@@ -1,28 +1,30 @@
 
-Œ"squid:ClassVariableVisibilityCheckG"WMake oneTimeOnly a static final constant or non-public and provide accessors if needed.(¥§Âû8±°†Ä§-
-jsquid:S1192Ğ"FDefine a constant instead of duplicating this literal "%d:%d" 3 times.(¿Ê™½ùÿÿÿÿ8³ÕˆÄ§-
-wsquid:S00116+"SRename this field "btn_play" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸²Éûÿÿÿÿ8Ñ§³ò¦-
-}squid:S001163"YRename this field "txt_total_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„„í„ûÿÿÿÿ8Ñ§³ò¦-
-isquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(‹Àï÷8ó¾¸è§-
-osquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(Óæ¨üÿÿÿÿ8±°†Ä§-
-~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öıíõøÿÿÿÿ8Üò¼Ç¦-
-~squid:S00116;"ZRename this field "lnr_player_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÒ åÿÿÿÿÿ8ç‹ƒÀ§-
-~squid:S00116ä"YRename this field "UpdateSongTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûèÏ²şÿÿÿÿ8µæˆÄ§-
-nsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.( Ş¼ãûÿÿÿÿ8±°†Ä§-
-Isquid:S1481n"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8±°†Ä§-
 Msquid:S1066q"/Merge this if statement with the enclosing one.(¹§÷¼8±°†Ä§-
-osquid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.( Ş¼ãûÿÿÿÿ8ÂÄ‰Ä§-
-wsquid:S00116'"SRename this field "btn_next" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñş¼ıÿÿÿÿ8Ñ§³ò¦-
-{squid:S00116-"WRename this field "btn_previous" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„úÅŒıÿÿÿÿ8Ñ§³ò¦-
-xsquid:S001169"YRename this field "txt_tlbr_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öà Ï8Ğ¸÷º§-
-xsquid:S00116)"TRename this field "btn_pause" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( æ Ôùÿÿÿÿ8Ñ§³ò¦-
 Osquid:S1444G"1Make this "public static oneTimeOnly" field final(¥§Âû8±°†Ä§-
 osquid:CommentedOutCodeLine¤"<This block of commented-out lines of code should be removed.(„á™úÿÿÿÿ8±°†Ä§-
 osquid:CommentedOutCodeLineÂ"<This block of commented-out lines of code should be removed.(‰£ƒÿùÿÿÿÿ8±°†Ä§-
-{squid:S001161"WRename this field "txt_cur_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆîØâÿÿÿÿÿ8Ñ§³ò¦-
-jsquid:S1192”"FDefine a constant instead of duplicating this literal ")-\t(" 4 times.(ú©¸Òıÿÿÿÿ8±°†Ä§-
-zsquid:S00116$"VRename this field "rview_surah" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¸ÀÈıÿÿÿÿ8¸ˆÑ¾¦-
+wsquid:S00116'"SRename this field "btn_next" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñş¼ıÿÿÿÿ8Ñ§³ò¦-
+jsquid:S1192Ğ"FDefine a constant instead of duplicating this literal "%d:%d" 3 times.(¿Ê™½ùÿÿÿÿ8³ÕˆÄ§-
+~squid:S00116;"ZRename this field "lnr_player_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÒ åÿÿÿÿÿ8ç‹ƒÀ§-
 osquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(ŞÊ—°ıÿÿÿÿ8±°†Ä§-
-wsquid:S001167"XRename this field "img_tlbr_back" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹úÇ8Ğ¸÷º§-
+wsquid:S00116+"SRename this field "btn_play" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸²Éûÿÿÿÿ8Ñ§³ò¦-
+osquid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.( Ş¼ãûÿÿÿÿ8ÂÄ‰Ä§-
+Isquid:S1481n"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8±°†Ä§-
 xsquid:S00116/"YRename this field "txt_surah_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öˆ8Ñ§³ò¦-
+{squid:S001161"WRename this field "txt_cur_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆîØâÿÿÿÿÿ8Ñ§³ò¦-
+nsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.( Ş¼ãûÿÿÿÿ8±°†Ä§-
+xsquid:S001169"YRename this field "txt_tlbr_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öà Ï8Ğ¸÷º§-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öıíõøÿÿÿÿ8Üò¼Ç¦-
+isquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(‹Àï÷8ó¾¸è§-
+osquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(Óæ¨üÿÿÿÿ8±°†Ä§-
+zsquid:S00116$"VRename this field "rview_surah" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¸ÀÈıÿÿÿÿ8¸ˆÑ¾¦-
+{squid:S00116-"WRename this field "btn_previous" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„úÅŒıÿÿÿÿ8Ñ§³ò¦-
 usquid:S3776L"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¨Œşÿÿÿÿ8±°†Ä§-
+wsquid:S001167"XRename this field "img_tlbr_back" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹úÇ8Ğ¸÷º§-
+jsquid:S1192”"FDefine a constant instead of duplicating this literal ")-\t(" 4 times.(ú©¸Òıÿÿÿÿ8±°†Ä§-
+}squid:S001163"YRename this field "txt_total_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„„í„ûÿÿÿÿ8Ñ§³ò¦-
+xsquid:S00116)"TRename this field "btn_pause" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( æ Ôùÿÿÿÿ8Ñ§³ò¦-
+~squid:S00116ä"YRename this field "UpdateSongTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûèÏ²şÿÿÿÿ8µæˆÄ§-
+Œ"squid:ClassVariableVisibilityCheckG"WMake oneTimeOnly a static final constant or non-public and provide accessors if needed.(¥§Âû8±°†Ä§-
+Tsquid:S2696Z"6Make the enclosing method "static" or remove this set.(‚’£˜8Ä”Ã×©-
+Zsquid:S2696€"6Make the enclosing method "static" or remove this set.(È§µàüÿÿÿÿ8Ä”Ã×©-

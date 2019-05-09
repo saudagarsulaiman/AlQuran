@@ -1,27 +1,27 @@
 
-osquid:CommentedOutCodeLineÏ"<This block of commented-out lines of code should be removed.(÷ôÓÏÿÿÿÿÿ8˜Çƒã§-
-osquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(™·Ä²ûÿÿÿÿ8€Óã§-
+osquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(ÚÃÃýÿÿÿÿ8Àÿƒã§-
 Xsquid:S1118":Add a private constructor to hide the implicit public one.(­ÀÚŠ8ñ³ùÈ¦-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶Ð†8¬ß”ã§-
-nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ìÕ—úÿÿÿÿÿ8‡’ÿâ§-
-nsquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(çÒ©Áüÿÿÿÿ8¥í€ã§-
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó¢
-isquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(áÑï8áñÿâ§-
 nsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(åšüÿÿÿÿ8á¨ã§-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢âÃÙûÿÿÿÿ8“‹–ã§-
-jsquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(¦ý—ñ8ûð‚ã§-
+nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ìÕ—úÿÿÿÿÿ8‡’ÿâ§-
+isquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(ÊÔ’Ý8°¦ÿâ§-
+osquid:CommentedOutCodeLineÏ"<This block of commented-out lines of code should be removed.(÷ôÓÏÿÿÿÿÿ8˜Çƒã§-
 ‘"squid:ClassVariableVisibilityCheck
 "WMake mediaPlayer a static final constant or non-public and provide accessors if needed.(­Áûøÿÿÿÿ8œ¾¯½§-
-nsquid:CommentedOutCodeLine_"<This block of commented-out lines of code should be removed.(³£“ñûÿÿÿÿ8ÿ©€ã§-
-osquid:CommentedOutCodeLineŽ"<This block of commented-out lines of code should be removed.(‹¥õ†þÿÿÿÿ8ÃþÐâ§-
-vsquid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÐ Èüÿÿÿÿ8¢¢Ñâ§-
-osquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(ÜñäÑÿÿÿÿÿ8Ð–ƒã§-
-vsquid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯–à‰ýÿÿÿÿ8—¬îã§-
-osquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(ÚÃÃýÿÿÿÿ8Àÿƒã§-
-osquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(–ô«Õüÿÿÿÿ8Ø§‚ã§-
-osquid:CommentedOutCodeLine«"<This block of commented-out lines of code should be removed.(¼ø‰Ìþÿÿÿÿ8ÈÖ‚ã§-
-isquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(ÊÔ’Ý8°¦ÿâ§-
-osquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(³Æ€Çûÿÿÿÿ8‘Á„ã§-
-isquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(œÂÔn8…¨„ã§-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó¢
 Tsquid:S1444
 "1Make this "public static mediaPlayer" field final(­Áûøÿÿÿÿ8œ¾¯½§-
+isquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(áÑï8áñÿâ§-
+osquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(–ô«Õüÿÿÿÿ8Ø§‚ã§-
+isquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(œÂÔn8…¨„ã§-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢âÃÙûÿÿÿÿ8“‹–ã§-
+vsquid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÐ Èüÿÿÿÿ8¢¢Ñâ§-
+osquid:CommentedOutCodeLineŽ"<This block of commented-out lines of code should be removed.(‹¥õ†þÿÿÿÿ8ÃþÐâ§-
+osquid:CommentedOutCodeLine«"<This block of commented-out lines of code should be removed.(¼ø‰Ìþÿÿÿÿ8ÈÖ‚ã§-
+jsquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(¦ý—ñ8ûð‚ã§-
+vsquid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯–à‰ýÿÿÿÿ8—¬îã§-
+osquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(ÜñäÑÿÿÿÿÿ8Ð–ƒã§-
+nsquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(çÒ©Áüÿÿÿÿ8¥í€ã§-
+nsquid:CommentedOutCodeLine_"<This block of commented-out lines of code should be removed.(³£“ñûÿÿÿÿ8ÿ©€ã§-
+osquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(™·Ä²ûÿÿÿÿ8€Óã§-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶Ð†8¬ß”ã§-
+osquid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(³Æ€Çûÿÿÿÿ8‘Á„ã§-

@@ -2,10 +2,29 @@ package com.islam.alquran.Utilities;
 
 import android.content.Context;
 import android.media.MediaPlayer;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.widget.Toast;
 
 import com.islam.alquran.R;
 
 public final class CommonUtilities {
+
+    public static final String URL = "http://api.alquran.cloud";
+    public static final String URL1 = "http://cdn.alquran.cloud";
+
+    public static boolean isConnectionAvailable(Context ctx) {
+        //boolean bConnection = false;
+        ConnectivityManager connMgr = (ConnectivityManager) ctx.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        return networkInfo != null && networkInfo.isConnected();
+    }
+
+    public static void ShowToastMessage(Context mContext, String xMessage) {
+        Toast mToast = Toast.makeText(mContext, xMessage, Toast.LENGTH_SHORT);
+//        mToast.setGravity(Gravity.CENTER, 0, 0);
+        mToast.show();
+    }
 
     public static MediaPlayer mediaPlayer;
 
