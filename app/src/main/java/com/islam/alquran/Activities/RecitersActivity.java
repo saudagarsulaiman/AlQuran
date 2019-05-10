@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -16,13 +15,16 @@ import com.islam.alquran.R;
 import com.islam.alquran.ServiceAPIs.AyahApi;
 import com.islam.alquran.Utilities.AlQuranApiClient;
 import com.islam.alquran.Utilities.CommonUtilities;
+import com.islam.alquran.Utilities.GsonUtils;
 
 import org.json.JSONObject;
 
 import java.net.SocketTimeoutException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -41,11 +43,13 @@ public class RecitersActivity extends AppCompatActivity {
     ArrayList<RecitersName> allRecitersList;
 
     ProgressDialog progressDialog;
+    String loginResponseCode, loginResponseMsg, loginResponseData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reciters);
+        ButterKnife.bind(this);
 
         img_tlbr_back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,23 +83,27 @@ public class RecitersActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                     try {
-                        /*String responsevalue = response.body().string();
+                        String responsevalue = response.body().string();
                         if (!responsevalue.isEmpty() && responsevalue != null) {
                             progressDialog.dismiss();
                             JSONObject jsonObject = new JSONObject(responsevalue);
                             loginResponseCode = jsonObject.getString("code");
                             loginResponseMsg = jsonObject.getString("status");
-
                             if (loginResponseMsg.equals("OK")) {
+                                allRecitersList = new ArrayList<>();
                                 loginResponseData = jsonObject.getString("data");
-                                txt_address.setText(loginResponseData);
-                                CommonUtilities.qrCodeGenerate(loginResponseData, img_qrcode, RecitersActivity.this);
+                                RecitersName[] coinsStringArray = GsonUtils.getInstance().fromJson(loginResponseData, RecitersName[].class);
+                                allRecitersList = new ArrayList<RecitersName>(Arrays.asList(coinsStringArray));
+
+                                recitersListRAdapter = new RecitersListRAdapter(RecitersActivity.this, allRecitersList);
+                                rview_reciters.setAdapter(recitersListRAdapter);
+
                             } else {
                                 CommonUtilities.ShowToastMessage(RecitersActivity.this, loginResponseMsg);
                             }
                         } else {
                             CommonUtilities.ShowToastMessage(RecitersActivity.this, loginResponseMsg);
-                        }*/
+                        }
                     } catch (Exception e) {
                         e.printStackTrace();
                         progressDialog.dismiss();

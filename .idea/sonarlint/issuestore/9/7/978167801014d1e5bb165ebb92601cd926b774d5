@@ -1,0 +1,12 @@
+
+wsquid:S00116K"SRename this field "lnr_item" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ˆ«Şúÿÿÿÿ8©¸ûâ©-
+5squid:S2176B"Rename this class.(Â×Öúÿÿÿÿ8Ñ¦²â©-
+Xsquid:S11729"5Remove this unused method parameter "str_identifier".(”´ı¼ÿÿÿÿÿ8ÁÒ‡ã©-
+wsquid:S00116I"SRename this field "txt_lang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ°Òôùÿÿÿÿ8è–ıâ©-
+rsquid:S00116E"SRename this field "txt_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„™ä8Ù—üâ©-
+zsquid:S00116G"VRename this field "txt_engName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÈŸŒûÿÿÿÿ8áêüâ©-
+squid:S1488""bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(Ûóşx8À·â©-
+¤squid:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(”´ı¼ÿÿÿÿÿ8ÁÒ‡ã©-
+usquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”´ı¼ÿÿÿÿÿ8ÁÒ‡ã©-
+rsquid:S001009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”´ı¼ÿÿÿÿÿ8ÁÒ‡ã©-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊŞ«üşÿÿÿÿ

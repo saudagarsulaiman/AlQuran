@@ -1,6 +1,7 @@
 package com.islam.alquran.Utilities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -553,6 +554,14 @@ public final class CommonUtilities {
         String[] Number = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21",
                 "22", "23", "24", "25", "26", "27", "28", "29", "30"};
         return Number[i];
+    }
+
+    public static void shareAddress(CharSequence str_data_address, Context context) {
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, str_data_address);
+        sendIntent.setType("text/plain");
+        context.startActivity(sendIntent);
     }
 
 }
