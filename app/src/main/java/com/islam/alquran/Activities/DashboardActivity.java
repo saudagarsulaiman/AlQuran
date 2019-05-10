@@ -109,7 +109,15 @@ public class DashboardActivity extends AppCompatActivity {
         View view = dialog.getHolderView();
 
         Button btn_close = view.findViewById(R.id.btn_close);
-
+        TextView txt_more = view.findViewById(R.id.txt_more);
+        txt_more.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DashboardActivity.this, ParaViewerActivity.class);
+                intent.putExtra("PARANAME", "duas");
+                startActivity(intent);
+            }
+        });
         btn_close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
