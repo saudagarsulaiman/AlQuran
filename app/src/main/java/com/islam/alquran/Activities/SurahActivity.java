@@ -96,7 +96,7 @@ public class SurahActivity extends AppCompatActivity {
             surahName.setSurahNum(i);
             allSurahList.add(surahName);
         }*/
-        for (int i = 0; i < 68; i++) {
+        for (int i = 0; i < 69; i++) {
             SurahName surahName = new SurahName();
             surahName.setSurahName("s" + CommonUtilities.getSurahNumber(i));
             surahName.setSurahNum(CommonUtilities.getSurahNumber(i));

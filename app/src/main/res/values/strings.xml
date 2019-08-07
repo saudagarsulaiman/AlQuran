@@ -44,9 +44,10 @@
     <string name="features">Read Quran + Listen to Surah Offline</string>
     <string name="update">Update :</string>
     <string name="whats_New">What\'s New ?</string>
-    <string name="new_feature">Listen to Ayah from List of Reciters!</string>
+    <!--<string name="new_feature">Listen to Ayah from List of Reciters!</string>-->
+    <string name="new_feature">Added Surah Waqi\'ah!</string>
     <string name="version">Version :</string>
-    <string name="v1">2.0</string>
+    <string name="v1">2.1</string>
     <string name="app_icon">App Icon :</string>
     <string name="dev_info">Developer Info</string>
     <string name="sss">S MD Sulaiman Sait</string>
