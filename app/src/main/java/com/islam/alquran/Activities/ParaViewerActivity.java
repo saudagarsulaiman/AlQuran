@@ -36,7 +36,13 @@ public class ParaViewerActivity extends AppCompatActivity {
             }
         });
         int num = paraNum--;
-        txt_tlbr_title.setText("(" + CommonUtilities.getParaArabicTitles(paraNum) + ")\t-\t(" + num + ")\t-\t(" + CommonUtilities.getParaRomanTitles(paraNum) + ")");
-        pdf_viewer.fromAsset(paraName + ".pdf").load();
+        if (paraName.equals("duas")) {
+            txt_tlbr_title.setText("Essential Duas");
+            pdf_viewer.fromAsset("duas.pdf").load();
+        } else {
+            txt_tlbr_title.setText("(" + CommonUtilities.getParaArabicTitles(paraNum) + ")\t-\t(" + num + ")\t-\t(" + CommonUtilities.getParaRomanTitles(paraNum) + ")");
+            pdf_viewer.fromAsset(paraName + ".pdf").load();
+        }
+
     }
 }

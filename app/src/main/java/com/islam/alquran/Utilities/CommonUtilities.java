@@ -1,11 +1,31 @@
 package com.islam.alquran.Utilities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.widget.Toast;
 
 import com.islam.alquran.R;
 
 public final class CommonUtilities {
+
+    public static final String URL = "http://api.alquran.cloud";
+    public static final String URL1 = "http://cdn.alquran.cloud";
+
+    public static boolean isConnectionAvailable(Context ctx) {
+        //boolean bConnection = false;
+        ConnectivityManager connMgr = (ConnectivityManager) ctx.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        return networkInfo != null && networkInfo.isConnected();
+    }
+
+    public static void ShowToastMessage(Context mContext, String xMessage) {
+        Toast mToast = Toast.makeText(mContext, xMessage, Toast.LENGTH_SHORT);
+//        mToast.setGravity(Gravity.CENTER, 0, 0);
+        mToast.show();
+    }
 
     public static MediaPlayer mediaPlayer;
 
@@ -202,10 +222,10 @@ public final class CommonUtilities {
             case "s55":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s55);
                 break;
-/*
             case "s56":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s56);
                 break;
+/*
             case "s57":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s57);
                 break;
@@ -393,8 +413,8 @@ public final class CommonUtilities {
         }
         return mPlayer2;
     }
-/*
 
+/*
     public static String getSurahRomanTitles(int i) {
         String[] romanTitles = {"Al-Fatihah", "Al-Baqarah", "Al-'Imran", "An-Nisa'", "Al-Ma'idah", "Al-An'am", "Al-A'raf", "Al-Anfal",
                 "Al-Bara'at / At-Taubah", "Yunus", "Hud", "Yusuf", "Ar-Ra'd", "Ibrahim", "Al-Hijr", "An-Nahl", "al-Isra'", "Al-Kahf",
@@ -408,7 +428,6 @@ public final class CommonUtilities {
                 "Al-A'la", "Al-Ghashiyah", "Al-Fajr", "Al-Balad", "Ash-Shams", "Al-Lail", "Ad-Duha", "Al-Inshirah", "At-Tin", "Al-'Alaq", "Al-Qadr",
                 "Al-Bayyinah", "Al-Zilzal", "Al-'Adiyat", "Al-Qari'ah", "At-Takathur", "Al-'Asr", "Al-Humazah", "Al-Fil", "Al-Quraish", "Al-Ma'un",
                 "Al-Kauthar", "Al-Kafirun", "An-Nasr", "Al-Masad / Al-Lahab", "Al-Ikhlas / At-Tawhid", "Al-Falaq", "An-Nas"};
-
         return romanTitles[i];
     }
 
@@ -424,7 +443,6 @@ public final class CommonUtilities {
                 "البَـلـَد", "الشــَّمْس", "اللـَّيل", "الضُّحی", "الإنشـِراح", "التـِّين", "العَلـَق", "القـَدر", "البَيِّنَة", "الزِّلزال", "العـَاديات",
                 "القارِعَة", "التَكاثـُر", "العَصْر", "الهُمَزَة", "الفيل", "قـُرَيْش", "الماعُون", "الكـَوْثَر", "الكافِرون", "النـَّصر", "تَبَّت",
                 "الإخـْلاص (التـَّوحيد)", "الفـَلَق", "النـَّاس"};
-
         return arabicTitles[i];
     }
 
@@ -444,7 +462,6 @@ public final class CommonUtilities {
                 "The Opening Forth", "The Fig", "The Clot", "The Night of Decree", "The Proof", "The Earthquake", "The Runners",
                 "The Striking Hour", "The Piling Up", "The Time", "The Slanderer", "The Elephant", "Quraish", "The Assistance",
                 "The River of Abundance", "The Disbelievers", "The Help", "The Palm Fiber", "The Sincerity", "The Daybreak", "Mankind"};
-
         return englishTitles[i];
     }
 
@@ -455,7 +472,6 @@ public final class CommonUtilities {
                 "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89",
                 "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110",
                 "111", "112", "113", "114"};
-
         return Number[i];
     }
 */
@@ -463,7 +479,7 @@ public final class CommonUtilities {
 
     public static String getSurahRomanTitles(int i) {
         String[] romanTitles = {"Al-Fatihah", "Al-Baqarah", "An-Nisa'", "Yusuf", "Ibrahim", "Al-Kahf", "Maryam", "Al-Mu'minun", "Al-Furqan", "As-Sajdah",
-                "Ya Sin", "Al-Ghafir / Al-Mu'min", "Ad-Dukhan", "Al-Jathiyah", "Muhammad", "Qaf", "Ar-Rahman", "Al-Mujadilah", "Al-Hashr", "Al-Mumtahanah",
+                "Ya Sin", "Al-Ghafir / Al-Mu'min", "Ad-Dukhan", "Al-Jathiyah", "Muhammad", "Qaf", "Ar-Rahman", "Al-Waqi’ah", "Al-Mujadilah", "Al-Hashr", "Al-Mumtahanah",
                 "As-Saff", "Al-Jumu'ah", "Al-Munafiqun", "At-Taghabun", "At-Talaq", "At-Tahrim", "Al-Mulk", "Nuh", "Al-Jinn", "Al-Qiyamah",
                 "Al-Insan / Ad-Dahr", "An-Naba'", "An-Nazi'at", "'Abasa", "At-Takwir", "Al-Infitar", "Al-Mutaffifin", "Al-Inshiqaq", "Al-Buruj", "At-Tariq",
                 "Al-A'la", "Al-Ghashiyah", "Al-Fajr", "Al-Balad", "Ash-Shams", "Al-Lail", "Ad-Duha", "Al-Inshirah", "At-Tin", "Al-'Alaq", "Al-Qadr",
@@ -473,23 +489,20 @@ public final class CommonUtilities {
     }
 
     public static String getSurahArabicTitles(int i) {
-        String[] arabicTitles = {"الْفَاتِحَة", "البَقَرة", "النِّســاء", "يُوسُف", "اِبراهيم", "الكَهْف", "مَريَم",
-                "المؤمِنون", "الفُرقان", "السَّـجْدة",
-                "يــس", "المُؤْمِن", "الدُّخان",
-                "الجاثِية", "مُحَمّد (ص)", "ق", "الرَّحمن",
+        String[] arabicTitles = {"الْفَاتِحَة", "البَقَرة", "النِّســاء", "يُوسُف", "اِبراهيم", "الكَهْف", "مَريَم", "المؤمِنون", "الفُرقان", "السَّـجْدة",
+                "يــس", "المُؤْمِن", "الدُّخان", "الجاثِية", "مُحَمّد (ص)", "ق", "الرَّحمن", "الواقعة",
                 "المُجادَلة", "الحَشْر", "المُمتَحَنة", "الصَّف", "الجُّمُعة", "المُنافِقُون", "التَّغابُن", "الطَّلاق", "التَّحْريم", "المُلْك",
                 "نُوح", "الجِنّ", "القِيامَة", "الدَّهر (الإنسان)", "النـَّبأ'",
                 "النـّازِعات", "عَبَس", "التـَّكْوير", "الإنفِطار", "المُطـَفِّفين", "الإنشِقاق", "البُروج", "الطّارق", "الأعلی", "الغاشِيَة", "الفَجْر",
                 "البَـلـَد", "الشــَّمْس", "اللـَّيل", "الضُّحی", "الإنشـِراح", "التـِّين", "العَلـَق", "القـَدر", "البَيِّنَة", "الزِّلزال", "العـَاديات",
                 "القارِعَة", "التَكاثـُر", "العَصْر", "الهُمَزَة", "الفيل", "قـُرَيْش", "الماعُون", "الكـَوْثَر", "الكافِرون", "النـَّصر", "تَبَّت",
                 "الإخـْلاص (التـَّوحيد)", "الفـَلَق", "النـَّاس"};
-
         return arabicTitles[i];
     }
 
     public static String getSurahEnglishTitles(int i) {
         String[] englishTitles = {"The Opening", "The Cow", "The Women", "Yusuf", "Ibrahim", "The Cave", "Maryam", "The Believers", "The Criterion",
-                "The Prostration", "Ya Sin", "The Forgiver", "The Smoke", "The Kneeling", "Muhammad", "Qaf", "The Most Gracious", "The Pleading",
+                "The Prostration", "Ya Sin", "The Forgiver", "The Smoke", "The Kneeling", "Muhammad", "Qaf", "The Most Gracious", "The Event", "The Pleading",
                 "The Gathering", "The Tested", "The Row", "Friday", "The Hypocrites", "The Loss & Gain",
                 "The Divorce", "The Prohibition", "The Kingdom", "Nuh", "The Jinn",
                 "The Resurrection", "The Human / The Time", "The Great News", "Those Who Pull Out",
@@ -498,12 +511,11 @@ public final class CommonUtilities {
                 "The Opening Forth", "The Fig", "The Clot", "The Night of Decree", "The Proof", "The Earthquake", "The Runners",
                 "The Striking Hour", "The Piling Up", "The Time", "The Slanderer", "The Elephant", "Quraish", "The Assistance",
                 "The River of Abundance", "The Disbelievers", "The Help", "The Palm Fiber", "The Sincerity", "The Daybreak", "Mankind"};
-
         return englishTitles[i];
     }
 
     public static int getSurahNumber(int i) {
-        int[] Number = {1, 2, 4, 12, 14, 18, 19, 23, 25, 32, 36, 40, 44, 45, 47, 50, 55, 58, 59, 60, 61,
+        int[] Number = {1, 2, 4, 12, 14, 18, 19, 23, 25, 32, 36, 40, 44, 45, 47, 50, 55, 56, 58, 59, 60, 61,
                 62, 63, 64, 65, 66, 67, 71, 72, 75, 76, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90,
                 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111,
                 112, 113, 114};
@@ -534,6 +546,14 @@ public final class CommonUtilities {
         String[] Number = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21",
                 "22", "23", "24", "25", "26", "27", "28", "29", "30"};
         return Number[i];
+    }
+
+    public static void shareAddress(CharSequence str_data_address, Context context) {
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, str_data_address);
+        sendIntent.setType("text/plain");
+        context.startActivity(sendIntent);
     }
 
 }

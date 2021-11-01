@@ -13,4 +13,6 @@
     <color name="bg_grad_start_g1">#38ef7d</color>
     <color name="grey">#A5A1A1</color>
     <color name="red">#FF0033</color>
+    <color name="l_white">#F8F8F8</color>
+    <color name="transparent">#0000ffff</color>
 </resources>

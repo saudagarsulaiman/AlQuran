@@ -6,8 +6,8 @@ android {
         applicationId "com.islam.alquran"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "2.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -40,5 +40,14 @@ dependencies {
 
 //    PDF VIEVWER
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+//    Retrofit, gson
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
+
+//    DialogPlus
+    implementation 'com.orhanobut:dialogplus:1.11@aar'
 
 }
